@@ -24,7 +24,11 @@ body{ background-color: var(--yellow); margin: 0;font-family: "Figtree", sans-se
 
         .content_box .card_box .card_date{font-size: 0.875rem;}
 
-        .content_box .card_box .card_title{font-size: 1.5rem; font-weight: 700; color: var(--dark-gray);}
+        .content_box .card_box .card_title{font-size: 1.5rem; font-weight: 700; color: var(--dark-gray); transition: all 0.35s ease-in-out; cursor: pointer;}
+
+            .content_box .card_box .card_title:hover,
+            .content_box .card_box .card_title:focus,
+            .content_box .card_box .card_title:active{color: var(--yellow);}
 
         .content_box .card_box .card_description{font-size: 1rem;font-weight: 400; color: var(--gray); line-height: 150%;}
 
